@@ -49,7 +49,7 @@ jobs:
           
           </details>
           
-          *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`, Working Directory: \`${{ xd }}\`, Workflow: \`${{ github.workflow }}\`*`;
+          *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`, Working Directory: No mmaterr, Workflow: \`${{ github.workflow }}\`*`;
             
           github.issues.createComment({
             issue_number: context.issue.number,
